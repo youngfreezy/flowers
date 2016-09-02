@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsGrid should render properly 1`] = `
+<div data-testid="PostsGridWrapper">
+  <div color="#00b4d5"
+       size="32"
+       type="grow"
+       class="LoaderGrow-sc-19vb2rk-0 iLaFLl"
+  >
+    <div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostsGrid should render the Grid if data exists 1`] = `null`;

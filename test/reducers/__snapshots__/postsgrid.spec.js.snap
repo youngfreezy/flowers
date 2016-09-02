@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsGrid should handle GET_POSTS 1`] = `
+Object {
+  "items": Array [],
+  "status": "idle",
+}
+`;
+
+exports[`PostsGrid should handle GET_POSTS_FAILURE 1`] = `
+Object {
+  "items": "Something went wrong",
+  "status": "error",
+}
+`;
+
+exports[`PostsGrid should handle GET_POSTS_SUCCESS 1`] = `
+Object {
+  "items": Array [],
+  "status": "success",
+}
+`;
+
+exports[`PostsGrid should return the initial state 1`] = `
+Object {
+  "items": Array [],
+  "status": "idle",
+}
+`;

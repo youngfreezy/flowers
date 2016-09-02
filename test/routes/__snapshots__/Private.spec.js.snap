@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Private should render properly 1`] = `
+<Screen
+  data-testid="PrivateWrapper"
+  key="Private"
+  minHeight="100vh"
+>
+  <Container
+    verticalPadding={true}
+  >
+    <Connect(PostsGrid) />
+  </Container>
+</Screen>
+`;
