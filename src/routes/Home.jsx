@@ -74,7 +74,6 @@ export class Home extends React.PureComponent {
             <Logo type="logo" />
           </Header>
           <Heading>{config.name}</Heading>
-          yyoyoyoo
           <Button
             animate={user.status === 'running'}
             onClick={this.handleClickLogin}

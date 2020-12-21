@@ -191,7 +191,6 @@ exports[`Home should render properly 1`] = `
     >
       React Redux Saga Boilerplate
     </h1>
-    yyoyoyoo
     <button
       className="c5"
       data-testid="Login"

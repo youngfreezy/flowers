@@ -1,31 +1,8 @@
-# React-Redux-Saga Boilerplate
-
-[![Build Status](https://travis-ci.org/gilbarbara/react-redux-saga-boilerplate.svg?branch=master)](https://travis-ci.org/gilbarbara/react-redux-saga-boilerplate) [![Dependencies](https://david-dm.org/gilbarbara/react-redux-saga-boilerplate.svg)](https://david-dm.org/gilbarbara/react-redux-saga-boilerplate) [![Maintainability](https://api.codeclimate.com/v1/badges/eb66aa0049fa03acbbf3/maintainability)](https://codeclimate.com/github/gilbarbara/react-redux-saga-boilerplate/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/eb66aa0049fa03acbbf3/test_coverage)](https://codeclimate.com/github/gilbarbara/react-redux-saga-boilerplate/test_coverage)
-
-[Demo](https://redux-saga.react-boilerplate.com/)
-
-### Provides
-
-- react ^16.x
-- react-router 4.x
-- react-helmet 5.x
-- styled-components 4.x
-- redux 4.x
-- redux-saga 0.16.x
-- redux-persist 5.x
-
-### Development
-
-- webpack-dev-server 3.x
-- react-hot-loader 4.x
-- redux-devtools (with browser plugin)
+### To start the app (w/ server running at port 5000):
 
 `npm run dev`
 
 ### Code Quality
-
-- eslint 5.x
-- stylelint 9.x
 
 `npm run lint`
 
@@ -35,3 +12,5 @@
 - enzyme 3.x
 
 `npm test`
+
+note: this repo is a fork of https://github.com/gilbarbara/react-redux-saga-boilerplate

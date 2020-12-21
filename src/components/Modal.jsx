@@ -30,9 +30,9 @@ export class EditableModal extends React.Component {
         <div
           style={{
             top: '25%',
-            left: '25%',
+            left: '30%',
             position: 'absolute',
-            width: 400,
+            width: '40%',
             backgroundColor: 'azure',
             border: '2px solid #000',
             height: 500,
@@ -47,7 +47,7 @@ export class EditableModal extends React.Component {
             options={autoCompleteItems}
             getOptionLabel={option => option.title}
             onChange={handlers.handleModalAutoCompleteSelection}
-            style={{ width: 300, marginTop: '2%', marginBottom: '10%' }}
+            style={{ width: '88%', marginTop: '2%', marginBottom: '10%' }}
             renderInput={params => (
               <TextField {...params} label="Search by title" variant="outlined" />
             )}
@@ -58,7 +58,7 @@ export class EditableModal extends React.Component {
             variant="outlined"
             value={detailView?.title}
             onChange={handlers.handleEdits}
-            style={{ width: 300, marginTop: '2%', marginBottom: '5%' }}
+            style={{ width: '88%', marginTop: '2%', marginBottom: '5%' }}
           />
           Description:
           <TextField
@@ -66,9 +66,14 @@ export class EditableModal extends React.Component {
             variant="outlined"
             value={detailView?.body}
             onChange={handlers.handleEdits}
-            style={{ marginBottom: '20%' }}
+            style={{ width: '88%', marginBottom: '40px' }}
           />
-          <Button variant="primary" color="primary" onClick={handlers.saveEntry}>
+          <Button
+            variant="primary"
+            color="primary"
+            onClick={handlers.saveEntry}
+            style={{ width: '88%' }}
+          >
             Save
           </Button>
         </div>

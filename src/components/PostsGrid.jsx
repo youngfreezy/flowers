@@ -179,7 +179,7 @@ export class PostsGrid extends React.Component {
             options={data}
             getOptionLabel={option => option.title}
             onChange={this.handleAutoCompleteSelection}
-            style={{ width: 300, marginLeft: '32%', marginTop: '2%' }}
+            style={{ width: '20%', marginLeft: '40%' }}
             renderInput={params => (
               <TextField {...params} label="Search by title" variant="outlined" />
             )}
